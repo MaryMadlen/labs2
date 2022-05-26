@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, tr, td {
+            border: 1px solid #000;
+        }
+        tr {
+            height: 50px;
+        }
+        td {
+            width: 20%;
+        }
+        tr:nth-child(1) {
+            background-color: #098f8f;
+        }
+        tr:nth-child(2) {
+            background-color: #f5f509;
+        }
+        .first-row:hover, .second-row:hover {
+            filter: invert(100%);
+        }
+        .shape-container {
+            padding-top: 50px;
+        }
+        
+
+        * {margin: 20px auto;
+        }
+
+        div {
+        margin-bottom: 0px;
+        }
+
+        p {
+        text-align: center;
+        padding: 40px 0px 0px 10px;
+        font-family: helvetica;
+        }
+
+        .Red {
+        width: 100px;
+        height: 100px;
+        background: #FF0000;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        }
+
+        .Yellow {
+        width: 100px;
+        height: 100px;
+        background: #FFFF00;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        }
+
+        .Green {
+        width: 100px;
+        height: 100px;
+        background: #00FF00;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        }
+
+        .rectangle {
+        width: 200px;
+        height: 400px;
+        background: #1f03031c;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index:-1;
+        }
+            </style>
+</head>
+<body>
+
+    <div class="Red"> </div>
+
+    <div class="Yellow"> </div>
+    
+    <div class="Green"> </div>
+     
+    <div class="Pole"> </div>
+    
+    <div class="rectangle"> </div>
+    
+    <div class="overlay"> </div>
+    <p></p>
+
+    <table>
+        <tr class="first-row">
+            <td rowspan="2" colspan="2" >Дмитренко Марина</td>
+            <td></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+        </tr>
+
+        <tr  class="second-row">
+            <td>ЗПІзп-11, варіант 1</td>         
+                       
+        </tr>
+
+        <tr>
+            <td>
+                <td rowspan="2"></td>
+            </td>
+            <td rowspan="2"></td>
+            <td rowspan="2" colspan="2"></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+      
+    </table>
+    <div class="shape-container">
+        <div class="rectangle"></div>
+        <div class="circle"></div>
+    </div>
+</body>
+</html>
