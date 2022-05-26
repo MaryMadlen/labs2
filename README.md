@@ -1,4 +1,4 @@
 # Лабораторна робота №2 - Дмитренко Марина
 
 Виконання роботи згідно завдання
-[plot](traffic_light.png)
+![My answear](traffic_light.png)
